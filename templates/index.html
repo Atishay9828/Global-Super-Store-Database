@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DBMS Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        * {
+            cursor: default !important;
+            user-select: none !important;
+        }
+    </style>
+</head>
+<body style="background: #000000;">
+    <div class="container text-center mt-5">
+        <h1 class="display-4 mb-4" style="color:white">📊 DBMS Dashboard</h1>
+        <p class="lead mb-4" style="color:white" >Welcome! Choose a section below:</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3 mb-3">
+                <a href="/customers" class="btn btn-outline-warning btn-block btn-lg">👥 View Customers</a>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+                <a href="/inventory" class="btn btn-outline-primary btn-block btn-lg">📦 View Inventory</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="/sales_lookup" class="btn btn-outline-success btn-block btn-lg">💰 Product Sales</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 mb-3">
+                <a href="/orders" class="btn btn-outline-info btn-block btn-lg">📑 View Orders</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="/shipping" class="btn btn-outline-light btn-block btn-lg">🚚 View Shipping</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
